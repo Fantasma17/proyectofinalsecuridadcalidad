@@ -115,20 +115,6 @@ proyecto/
 
 ## Resultados
 
-### Resumen
-- Total de Pruebas: 18
-- Exitosas: 11
-- Fallidas: 6
-- Bugs Detectados: 1
-
-### Estado por Área
-
-| Área Funcional | Total | OK | Fallo | Bug |
-|----------------|-------|----|----|-----|
-| Registro de Usuario | 2 | 2 | 0 | 0 |
-| Actualizar Perfil | 5 | 4 | 1 | 0 |
-| Votar por Autos | 11 | 5 | 5 | 1 |
-
 ## Bugs Identificados
 
 **Bug Crítico - Comentario sin autor**
