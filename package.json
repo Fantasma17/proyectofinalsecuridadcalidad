@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "-": "^0.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.2",
+    "dotenv": "^17.2.3"
+  },
+  "scripts": {
+
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ul": "npx playwright test --ui",
+    "test:example": "npx playwright test test/example.spec.ts",
+    "test:example:headed": "npx playwright test tests/example.spec.ts --headed",
+    "test:enlace":"npx playwright test tests/verificar-enlace.spec.ts --project=chromium --headed",
+    "test:comentario": "npx playwright test tests/comentario-sin-nombre.spec.ts --project=chromium --headed",
+    "test:incrementovoto": "npx playwright test tests/comprobar-incremento-voto.spec.ts --project=chromium --headed",
+    "test:editar": "npx playwright test tests/editar-perfil.spec.ts --project=chromium --headed",
+    "test:comprobartexto": "npx playwright test tests/comprobar-texto-largo.spec.ts --project=chromium --headed",
+    "test:comprobarvoto": "npx playwright test tests/comprobar-voto-unico.spec.ts --project=chromium --headed",
+    "test:expandirimagen": "npx playwright test tests/expandir-imagen-carro.spec.ts --project=chromium --headed",
+    "test:limiteinferior": "npx playwright test tests/limite-inferior-paginacion.spec.ts --project=chromium --headed",
+    "test:limitepag": "npx playwright test tests/limite-paginacion.spec.ts --project=chromium --headed",
+    "test:regusuexist": "npx playwright test tests/registro-usuario-existente.spec.ts --project=chromium --headed",
+    "test:regusu": "npx playwright test tests/registro-usuario.spec.ts --project=chromium --headed",
+    "test:votauto": "npx playwright test tests/votar-auto.spec.ts --project=chromium --headed",
+    "test:votcarro": "npx playwright test tests/votar-carro.spec.ts --project=chromium --headed",
+    "test:votsinlog": "npx playwright test tests/votar-sin-login.spec.ts --project=chromium --headed",
+    "test:example:chrome": "npx playwright test tests/example.spec.ts --project=chromium"
+  },
+  "name": "pruebas_automatizadas-main",
+  "version": "1.0.0",
+  "description": "bash npm run test ",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
